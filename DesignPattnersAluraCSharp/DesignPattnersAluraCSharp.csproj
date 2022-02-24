@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPattners_Aula1\DesignPattners_Aula1.csproj" />
+  </ItemGroup>
+
 </Project>

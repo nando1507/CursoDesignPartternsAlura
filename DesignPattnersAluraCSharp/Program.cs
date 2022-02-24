@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPattners_Aula1;
 
 namespace DesignPattnersAluraCSharp
 {
@@ -6,7 +7,9 @@ namespace DesignPattnersAluraCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Design Strategy
+            Aula1 aula1 = new Aula1();
+            aula1.Inicio();
         }
     }
 }
