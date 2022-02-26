@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DesignPattners_Aula1\DesignPattners_Aula1.csproj" />
+    <ProjectReference Include="..\DesignPattners_Aula1_Investimentos\DesignPattners_Aula1_Investimentos.csproj" />
   </ItemGroup>
 
 </Project>

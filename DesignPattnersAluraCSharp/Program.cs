@@ -8,7 +8,10 @@ namespace DesignPattnersAluraCSharp
         static void Main(string[] args)
         {
             //Design Strategy
-            Aula1 aula1 = new Aula1();
+            //Aula1 aula1 = new Aula1();
+            //aula1.Inicio();
+            //Design Strategy
+            Aula1_Investimentos aula1 = new Aula1_Investimentos();
             aula1.Inicio();
         }
     }
