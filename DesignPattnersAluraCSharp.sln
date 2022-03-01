@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattners_Aula1", "Des
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattners_Aula1_Investimentos", "DesignPattners_Aula1_Investimentos\DesignPattners_Aula1_Investimentos.csproj", "{05BC4101-2CAC-43A5-9461-73A666E413F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattners_Aula2", "DesignPattners_Aula2\DesignPattners_Aula2.csproj", "{8C884A80-B9CC-4080-A628-A6E352291562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{05BC4101-2CAC-43A5-9461-73A666E413F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05BC4101-2CAC-43A5-9461-73A666E413F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05BC4101-2CAC-43A5-9461-73A666E413F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C884A80-B9CC-4080-A628-A6E352291562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C884A80-B9CC-4080-A628-A6E352291562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C884A80-B9CC-4080-A628-A6E352291562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C884A80-B9CC-4080-A628-A6E352291562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
