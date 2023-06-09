@@ -1,12 +1,9 @@
-﻿using DesignPattners_Aula2.Interfaces;
-using DesignPattners_Aula2.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using DesignPattners_Aula4.Interfaces;
+using DesignPattners_Aula4.Models;
 
-namespace DesignPattners_Aula2
+namespace DesignPattners_Aula4
 {
-    public class Aula2
+    public class Aula4
     {
         public void Inicio()
         {
@@ -14,17 +11,19 @@ namespace DesignPattners_Aula2
             double orcado = double.Parse(Console.ReadLine());
 
             Orcamento orcamento = new Orcamento(orcado);
-            CalculadoraDeDescontos calculadora = new CalculadoraDeDescontos();
+            //CalculadoraDeDescontos calculadora = new CalculadoraDeDescontos();
 
             orcamento.AdicionaItem(new Item("Caneta", new Random().Next(0, 100)));
             orcamento.AdicionaItem(new Item("Lapis", new Random().Next(0, 100)));
             orcamento.AdicionaItem(new Item("Caderno", new Random().Next(0, 1000)));
             orcamento.AdicionaItem(new Item("Borracha", new Random().Next(0, 1000)));
             orcamento.AdicionaItem(new Item("Lapis", new Random().Next(0, 1000)));
-            //orcamento.Valor = orcamento.Sum(s => s.Itens.Valor);
 
-            double desconto = calculadora.Calcula(orcamento);
-            Console.WriteLine($"Valor do desconto: {Math.Round(desconto, 2)}");
+            Imposto iss = new ISS(new ICMS());
+            var valor = iss.Calcula(orcamento);
+            Console.WriteLine( valor);
+
+
 
 
             Console.ReadKey();

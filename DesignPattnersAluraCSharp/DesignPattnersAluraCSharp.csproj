@@ -2,13 +2,16 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DesignPattners_Aula1\DesignPattners_Aula1.csproj" />
     <ProjectReference Include="..\DesignPattners_Aula1_Investimentos\DesignPattners_Aula1_Investimentos.csproj" />
     <ProjectReference Include="..\DesignPattners_Aula2\DesignPattners_Aula2.csproj" />
+    <ProjectReference Include="..\DesignPattners_Aula3\DesignPattners_Aula3.csproj" />
+    <ProjectReference Include="..\DesignPattners_Aula4\DesignPattners_Aula4.csproj" />
+    <ProjectReference Include="..\DesignPattners_Aula5\DesignPattners_Aula5.csproj" />
   </ItemGroup>
 
 </Project>

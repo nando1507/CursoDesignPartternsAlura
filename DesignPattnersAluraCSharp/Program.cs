@@ -1,6 +1,9 @@
 ﻿using System;
 using DesignPattners_Aula1;
 using DesignPattners_Aula2;
+using DesignPattners_Aula3;
+using DesignPattners_Aula4;
+using DesignPattners_Aula5;
 
 namespace DesignPattnersAluraCSharp
 {
@@ -16,9 +19,20 @@ namespace DesignPattnersAluraCSharp
             //aula1.Inicio();
 
             //Design Chain of Responsability
-            Aula2 aula2 = new Aula2();
-            aula2.Inicio();
+            //Aula2 aula2 = new Aula2();
+            //aula2.Inicio();
 
+            //Template Method
+            //Aula3 aula3 = new Aula3();
+            //aula3.Inicio();
+
+            //Template Decorator
+            //Aula4 aula4 = new Aula4();
+            //aula4.Inicio();
+
+            //State
+            Aula5 aula5 = new Aula5();
+            aula5.Inicio();
         }
     }
 }
