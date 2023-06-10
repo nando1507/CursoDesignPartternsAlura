@@ -1,9 +1,11 @@
-﻿using System;
-using DesignPattners_Aula1;
-using DesignPattners_Aula2;
-using DesignPattners_Aula3;
-using DesignPattners_Aula4;
-using DesignPattners_Aula5;
+﻿//using System;
+//using DesignPattners_Aula1;
+//using DesignPattners_Aula2;
+//using DesignPattners_Aula3;
+//using DesignPattners_Aula4;
+//using DesignPattners_Aula5;
+using DesignPattners_Aula6;
+using DesignPattners_Aula7;
 
 namespace DesignPattnersAluraCSharp
 {
@@ -31,8 +33,18 @@ namespace DesignPattnersAluraCSharp
             //aula4.Inicio();
 
             //State
-            Aula5 aula5 = new Aula5();
-            aula5.Inicio();
+            //Aula5 aula5 = new Aula5();
+            //aula5.Inicio();
+
+            //builder/Fluente interface
+            Aula6 aula6 = new Aula6();
+            aula6.Inicio();
+
+
+
+            //Observer
+            Aula7 aula7 = new Aula7();
+            aula7.Inicio();
         }
     }
 }

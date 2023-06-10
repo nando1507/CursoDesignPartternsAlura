@@ -12,6 +12,8 @@
     <ProjectReference Include="..\DesignPattners_Aula3\DesignPattners_Aula3.csproj" />
     <ProjectReference Include="..\DesignPattners_Aula4\DesignPattners_Aula4.csproj" />
     <ProjectReference Include="..\DesignPattners_Aula5\DesignPattners_Aula5.csproj" />
+    <ProjectReference Include="..\DesignPattners_Aula6\DesignPattners_Aula6.csproj" />
+    <ProjectReference Include="..\DesignPattners_Aula7\DesignPattners_Aula7.csproj" />
   </ItemGroup>
 
 </Project>
