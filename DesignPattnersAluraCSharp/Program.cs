@@ -6,6 +6,7 @@
 //using DesignPattners_Aula5;
 using DesignPattners_Aula6;
 using DesignPattners_Aula7;
+using DesignPattnersAluraCSharp2;
 
 namespace DesignPattnersAluraCSharp
 {
@@ -37,14 +38,16 @@ namespace DesignPattnersAluraCSharp
             //aula5.Inicio();
 
             //builder/Fluente interface
-            Aula6 aula6 = new Aula6();
-            aula6.Inicio();
+            //Aula6 aula6 = new Aula6();
+            //aula6.Inicio();
 
+            ////Observer
+            //Aula7 aula7 = new Aula7();
+            //aula7.Inicio();
 
-
-            //Observer
-            Aula7 aula7 = new Aula7();
-            aula7.Inicio();
+            //Fly weight
+            Home Curso2 = new Home();
+            Curso2.inicio();
         }
     }
 }

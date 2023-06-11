@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DesignPattnersAluraCSharp2\DesignPattnersAluraCSharp2.csproj" />
     <ProjectReference Include="..\DesignPattners_Aula1\DesignPattners_Aula1.csproj" />
     <ProjectReference Include="..\DesignPattners_Aula1_Investimentos\DesignPattners_Aula1_Investimentos.csproj" />
     <ProjectReference Include="..\DesignPattners_Aula2\DesignPattners_Aula2.csproj" />
