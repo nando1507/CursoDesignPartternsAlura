@@ -174,12 +174,12 @@ namespace DesignPattnersAluraCSharp2
             double valor = 500;
             Cliente cliente = fachada.BuscaCliente(cpf);
 
-            Fatura fatura = fachada.CriaFatura(cliente, valor);
+            Fatura fatura = EmpresaFacade.CriaFatura(cliente, valor);
 
-            Cobranca cobranca = fachada.GeraCobranca(fatura);
+            Cobranca cobranca = EmpresaFacade.GeraCobranca(fatura);
             cobranca.Emite();
 
-            ContatoCliente contato = fachada.FazContato(cliente, cobranca);
+            ContatoCliente contato = EmpresaFacade.FazContato(cliente, cobranca);
             contato.Dispara();
 
             #endregion
